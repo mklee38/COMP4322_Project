@@ -1,0 +1,5 @@
+# Test Case 1: Simple 3-node triangle
+# All nodes connected to each other
+A: B:10 C:5
+B: A:10 C:3
+C: A:5 B:3

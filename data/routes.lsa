@@ -1,0 +1,10 @@
+# Sample LSA File - Network Topology
+# Format: node_name: neighbor1:cost neighbor2:cost ...
+# This example corresponds to Figure 1 in the COMP4322 project specification
+
+A: B:5 C:3 D:5
+B: A:5 C:4 E:3 F:2
+C: A:3 B:4 D:1 E:6
+D: A:5 C:1 E:3
+E: B:3 C:6 D:3 F:5
+F: B:2 E:5

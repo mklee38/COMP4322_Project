@@ -1,0 +1,9 @@
+# Test Case 2: Complex 8-node network
+H: A:7 B:9
+A: H:7 C:14 B:10
+B: H:9 A:10 C:11 F:15 D:6
+C: A:14 B:11 D:2 E:13
+D: B:6 C:2 E:6 G:19
+E: C:13 D:6 F:9
+F: B:15 E:9 G:11
+G: D:19 F:11
